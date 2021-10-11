@@ -3,11 +3,11 @@
 #include <ESP8266WebServer.h>
 #include <Servo.h>
 
-const char *ssid = "Puji"; //ganti nama wifi
-const char *pass = "hem12345";//ganti password
+const char *ssid = "*******"; //ganti nama wifi
+const char *pass = "*******";//ganti password
 
 const char *host = "api.thingspeak.com";
-String apiKey = "QP8PLTCA9LT2M2NP";
+String apiKey = "XXXXXXXXXXXXXXXX"; //apiKey pada thinkspeak
 
 Servo servo;
 
